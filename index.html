@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+</head>
+
+<body>
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <table id="grades-table" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Grade</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="fname" placeholder="First Name">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                        </div>
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="grade" placeholder="Grade">
+                    </td>
+                    <td>
+                        <button id="btn-add-student" class="btn btn-success">+</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+        Average: <span id="result"></span>
+    </div>
+
+    <div class="col-md-2"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
